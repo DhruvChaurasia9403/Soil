@@ -1,0 +1,56 @@
+name: readsoil
+description: "A new Flutter project."
+
+# Prevents accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0' # Updated to a more standard constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # All packages must have a version constraint.
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  firebase_core: ^3.1.0
+  firebase_auth: ^5.1.0
+  cloud_firestore: ^5.0.1
+  google_sign_in: ^6.2.1
+  flutter_blue_plus: ^1.31.20
+  fl_chart: ^0.68.0
+  pdf: ^3.11.0
+  printing: ^5.12.0
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  iconsax:
+  equatable:
+  flutter_screenutil: ^5.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+
+flutter_launcher_icons:
+  image_path: "Assets/icon.png"
+  android: true
+  adaptive_icon_background: "#FFFFFF"
+  ios: true
+  remove_alpha_ios: true
+
+  flutter_lints: ^4.0.0 # Adjusted to a common stable version
+
+flutter:
+  uses-material-design: true
+
+  # Correctly formatted assets section.
+  # Uncomment this and add your asset files to the folder.
+  assets:
+    - assets/

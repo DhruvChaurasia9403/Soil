@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "410682520047",
+    "project_id": "readsoil-69afc",
+    "storage_bucket": "readsoil-69afc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410682520047:android:960b52b60a736fc1aac61a",
+        "android_client_info": {
+          "package_name": "com.example.realsoil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4muiUb0LgtMIYEXvPO4p3PjBZ4iNx8UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410682520047:android:60da2f2990a27894aac61a",
+        "android_client_info": {
+          "package_name": "com.yourname.readsoil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4muiUb0LgtMIYEXvPO4p3PjBZ4iNx8UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -42,27 +42,24 @@ ReadSoil is a Flutter-based Android app that connects to a Bluetooth soil sensor
 
 ---
 
+### Installation
+### Download APK
+- Download ReadSoil APK: [Google Drive](https://drive.google.com/file/d/129CJ-3XDxkU7oD2xEPjeVaMYXiIh1EOd/view?usp=drivesdk)
+
+
 ## Screenshots
 
 ### Light Mode
-<!-- Add your light mode screenshots here -->
-<!-- ![Home Screen](screenshots/light_mode_home.png) -->
-<!-- ![History List](screenshots/light_mode_history_list.png) -->
-<!-- ![History Chart](screenshots/light_mode_history_chart.png) -->
-<!-- ![Login Screen](screenshots/light_mode_login.png) -->
-<!-- ![Signup Screen](screenshots/light_mode_signup.png) -->
-
-*Screenshots will be added once available*
+![Login Screen](ss/light_login.jpg)
+![Home Screen](ss/light_home.jpg) 
+![History](ss/light_history.jpg) 
+![Profile](ss/light_profile.jpg) 
 
 ### Dark Mode
-<!-- Add your dark mode screenshots here -->
-<!-- ![Home Screen](screenshots/dark_mode_home.png) -->
-<!-- ![History List](screenshots/dark_mode_history_list.png) -->
-<!-- ![History Chart](screenshots/dark_mode_history_chart.png) -->
-<!-- ![Login Screen](screenshots/dark_mode_login.png) -->
-<!-- ![Signup Screen](screenshots/dark_mode_signup.png) -->
-
-*Screenshots will be added once available*
+![Home Screen](ss/dark_home.jpg) 
+![History](ss/dark_history.jpg) 
+![Profile](ss/dark_profile.jpg) 
+![Login Screen](ss/dark_login.jpg) 
 
 ---
 
@@ -70,7 +67,7 @@ ReadSoil is a Flutter-based Android app that connects to a Bluetooth soil sensor
 
 ### Clone the Repository
 ```bash
-git clone <your-github-repo-link>
+git clone <https://github.com/DhruvChaurasia9403/Soil.git>
 cd readsoil
 ```
 
@@ -82,6 +79,7 @@ flutter pub get
 ### Configure Firebase
 - Create a Firebase project in the Firebase Console.
 - Enable Firestore and Firebase Authentication (email/password provider).
+- Run `flutterfire configure` to generate `firebase_options.dart` file
 - Download the `google-services.json` file and place it in the `android/app/` directory.
 - Ensure your Firestore security rules allow read/write access for authenticated users.
 
@@ -158,9 +156,6 @@ flutter build apk --release
 ### Minimum Android Version
 - 6.0 (API 23)
 
-### Installation
-- Download ReadSoil APK: [Available Soon]
-- Or build from source using the command above
 
 ---
 
@@ -173,25 +168,3 @@ flutter build apk --release
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-
----
-
-## How to Add Screenshots
-
-1. Create a `screenshots` folder in your project root directory
-2. Take screenshots of your app in both light and dark modes
-3. Save them with descriptive names like:
-   - `light_mode_home.png`
-   - `light_mode_history_list.png` 
-   - `light_mode_history_chart.png`
-   - `light_mode_login.png`
-   - `light_mode_signup.png`
-   - `dark_mode_home.png`
-   - `dark_mode_history_list.png`
-   - `dark_mode_history_chart.png`
-   - `dark_mode_login.png`
-   - `dark_mode_signup.png`
-4. Uncomment the screenshot lines in the README and replace the paths with your actual image paths
-5. Commit and push your changes to GitHub
-
-The screenshots will then display properly in your README on GitHub.

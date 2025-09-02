@@ -50,16 +50,12 @@ ReadSoil is a Flutter-based Android app that connects to a Bluetooth soil sensor
 ## Screenshots
 
 ### Light Mode
-![Login Screen](ss/light_login.jpg)
-![Home Screen](ss/light_home.jpg) 
-![History](ss/light_history.jpg) 
-![Profile](ss/light_profile.jpg) 
+| ![Login Screen](assets/ss/light_login.jpg) | ![Home Screen](assets/ss/light_home.jpg) | ![History](assets/ss/light_history.jpg) | ![Profile](assets/ss/light_profile.jpg) |
+|:-----------------------------------------:|:---------------------------------------:|:---------------------------------------:|:---------------------------------------:|
 
 ### Dark Mode
-![Home Screen](ss/dark_home.jpg) 
-![History](ss/dark_history.jpg) 
-![Profile](ss/dark_profile.jpg) 
-![Login Screen](ss/dark_login.jpg) 
+| ![Login Screen](assets/ss/dark_login.jpg) | ![Home Screen](assets/ss/dark_home.jpg) | ![History](assets/ss/dark_history.jpg) | ![Profile](assets/ss/dark_profile.jpg) |
+|:---------------------------------------:|:-------------------------------------:|:-------------------------------------:|:----------------------------------------:|
 
 ---
 
